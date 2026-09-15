@@ -1,4 +1,6 @@
-# TourInsight — Smart, Safe & Personalized Travel Companion
+<p align="center">
+  <img src="docs/images/icoin.png" width="280" alt="TourInsight Logo">
+</p># TourInsight — Smart, Safe & Personalized Travel Companion
 
 TourInsight is a full-stack travel-planning prototype built with React, Vite, Tailwind CSS, MapLibre, OpenStreetMap services, a lightweight Node/Express backend, and an optional Gemini-powered travel assistant.
 
@@ -46,6 +48,33 @@ TourInsight/
 ├── tailwind.config.js
 └── vite.config.js
 ```
+# 🌍 TourInsight
+## Smart, Safe & Personalized Travel Companion
+
+**Plan Smart • Travel Safe • Explore More**
+
+TourInsight is an intelligent travel platform that combines
+personalized itinerary planning, budget estimation, interactive maps,
+weather, safety tools, nearby essentials, local guides, AI assistance,
+and offline trip support in one platform.
+
+### Smart India Hackathon
+
+- Problem Statement ID: SIH26204
+- Theme: Travel & Tourism
+- Category: Software
+- Team ID: 130384
+
+### Future Scope
+
+- Flight, train and bus booking
+- Hotel and attraction ticket booking
+- Secure payment integration
+- Blockchain-based ticket verification
+- Tamper-resistant booking records
+- Live SOS sharing
+- Multilingual voice assistant
+- Advanced offline maps
 
 ## Local setup
 
