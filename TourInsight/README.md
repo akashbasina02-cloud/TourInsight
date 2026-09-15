@@ -292,43 +292,142 @@ Our goal is to create a unified travel companion that supports the traveller thr
 
 ```text
 TourInsight/
+├── TourInsight_Images/
+│   ├── icoin/
+│   │   └── icon.png
+│   │
+│   ├── screenshots/
+│   │   ├── ai-assistant.png
+│   │   ├── budget.png
+│   │   ├── home.png
+│   │   ├── itinerary-closeup.png
+│   │   ├── itinerary-details.png
+│   │   ├── itinerary-overview.png
+│   │   ├── map.png
+│   │   ├── nearby.png
+│   │   ├── offline-pack.png
+│   │   ├── offline-trip-ready.png
+│   │   ├── planner.png
+│   │   ├── safety.png
+│   │   └── world-explorer.png
+│   │
+│   └── README_SNIPPET.md
+│
 ├── backend/
-│   ├── data/                 # runtime JSON store (gitignored)
-│   ├── functions/            # AI assistant + destination image lookup
-│   ├── lib/                  # auth, entity rules, mail, persistence
-│   ├── schemas/              # vendor-neutral entity schema reference
-│   └── server.js             # Express API + production static server
-├── public/
-├── src/
-│   ├── api/appClient.js
-│   ├── components/
-│   ├── hooks/
+│   ├── functions/
+│   │   ├── chatAssistant.js
+│   │   ├── destinationImageLookup.js
+│   │   └── placeImageKey.js
+│   │
 │   ├── lib/
+│   │   ├── auth.js
+│   │   ├── entities.js
+│   │   ├── mail.js
+│   │   └── store.js
+│   │
+│   ├── schemas/
+│   │   ├── DestinationImage.json
+│   │   ├── Feedback.json
+│   │   ├── Guide.json
+│   │   ├── GuideReview.json
+│   │   ├── OfflinePack.json
+│   │   ├── Place.json
+│   │   ├── Trip.json
+│   │   ├── TripStop.json
+│   │   └── User.json
+│   │
+│   └── server.js
+│
+├── icoin/
+│   └── icon.png
+│
+├── pdf/
+│   └── 130384 (1).pdf
+│
+├── public/
+│   ├── manifest.json
+│   ├── tourinsight-fallback.svg
+│   └── tourinsight-favicon.svg
+│
+├── src/
+│   ├── api/
+│   │   └── appClient.js
+│   │
+│   ├── components/
+│   │   ├── planner/
+│   │   │   └── PlannerForm.jsx
+│   │   │
+│   │   ├── trip/
+│   │   │   ├── BudgetView.jsx
+│   │   │   ├── GuideView.jsx
+│   │   │   ├── ItineraryList.jsx
+│   │   │   ├── NearbyView.jsx
+│   │   │   └── SafetyView.jsx
+│   │   │
+│   │   ├── ui/
+│   │   │   ├── button.jsx
+│   │   │   ├── input-otp.jsx
+│   │   │   ├── input.jsx
+│   │   │   ├── label.jsx
+│   │   │   ├── skeleton.jsx
+│   │   │   ├── toaster.jsx
+│   │   │   └── use-toast.jsx
+│   │   │
+│   │   ├── world/
+│   │   │   └── CountryPanel.jsx
+│   │   │
+│   │   ├── AuthLayout.jsx
+│   │   ├── ChatBot.jsx
+│   │   ├── DestinationImage.jsx
+│   │   ├── GoogleIcon.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   ├── ScrollToTop.jsx
+│   │   ├── TopNav.jsx
+│   │   ├── TripMap.jsx
+│   │   ├── UserNotRegisteredError.jsx
+│   │   └── WorldMap.jsx
+│   │
+│   ├── hooks/
+│   │   ├── use-mobile.jsx
+│   │   └── use-size.jsx
+│   │
+│   ├── lib/
+│   │   ├── AuthContext.jsx
+│   │   ├── PageNotFound.jsx
+│   │   ├── authReturnTo.js
+│   │   ├── countryData.js
+│   │   ├── nearby.js
+│   │   ├── offlinePack.js
+│   │   ├── placeImages.js
+│   │   ├── query-client.js
+│   │   ├── stopGeo.js
+│   │   ├── tripEngine.js
+│   │   └── utils.js
+│   │
 │   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── ForgotPassword.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── ResetPassword.jsx
+│   │   └── TripResult.jsx
+│   │
 │   ├── utils/
+│   │   └── index.ts
+│   │
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-TourInsight_Images/
-├── icoin/
-│   └── icon.png
-└── screenshots/
-    ├── home.png
-    ├── world-explorer.png
-    ├── planner.png
-    ├── itinerary-overview.png
-    ├── itinerary-details.png
-    ├── itinerary-closeup.png
-    ├── ai-assistant.png
-    ├── map.png
-    ├── budget.png
-    ├── safety.png
-    ├── nearby.png
-    ├── offline-trip-ready.png
-    └── offline-pack.png
+│
 ├── README.md
-├── .env.example
+├── VERIFICATION.md
+├── components.json
+├── eslint.config.js
+├── index.html
+├── jsconfig.json
 ├── package.json
+├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
 ```
