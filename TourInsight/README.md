@@ -13,7 +13,6 @@ The main objective of TourInsight is to reduce the complexity of travel planning
 The traveller provides details such as destination, travel dates, number of travellers, budget, interests, preferred transport, hotel preference, and guide requirements. TourInsight then uses this information to create a personalized trip plan and provide useful travel assistance throughout the journey.
 
 ---
-
 ## 🎯 Problem We Are Solving
 
 Travellers often depend on several different platforms for:
@@ -30,119 +29,246 @@ Travellers often depend on several different platforms for:
 
 This creates a fragmented and time-consuming travel experience.
 
-TourInsight aims to provide these services through one intelligent and easy-to-use travel companion.
+**TourInsight** aims to bring these essential travel services together through one intelligent, personalized, and easy-to-use travel companion.
 
 ---
 
 ## 🚀 Key Features
 
-- Smart personalized trip planning
-- Day-wise itinerary generation
-- Travel budget estimation
-- Interactive world explorer
-- Interactive trip maps and routes
-- Weather information
-- Nearby hospitals, police stations, pharmacies, ATMs, restaurants and hotels
-- Travel safety assistance
-- Local guide discovery and reviews
-- Context-aware AI travel assistant
-- Offline Trip Pack
-- Calendar export
-- Traveller feedback
-- Personal trip dashboard
+- 🌍 Interactive World Explorer
+- ✨ Smart personalized trip planning
+- 📅 Day-wise itinerary generation
+- 💰 Travel budget estimation
+- 🗺️ Interactive trip maps and routes
+- 🌦️ Weather information
+- 🏥 Nearby hospitals, police stations, pharmacies, ATMs, restaurants, hotels, and other essentials
+- 🛡️ Travel safety assistance and emergency information
+- 👨‍💼 Local guide discovery and reviews
+- 🤖 Context-aware AI travel assistant
+- 📦 Offline Trip Pack
+- 📆 Calendar export
+- ⭐ Traveller feedback system
+- 👤 Personal trip dashboard
 
 ---
 
 ## 🤖 Intelligent Travel Assistance
 
-TourInsight includes a context-aware travel assistant that understands the traveller's trip information.
+TourInsight includes a **context-aware AI travel assistant** that understands the traveller's current trip information.
 
-The assistant can help users with itinerary questions, budget information, safety guidance, travel activities, and itinerary changes.
+The assistant can help users with:
 
-For trip modifications, TourInsight follows:
+- Itinerary-related questions
+- Budget information
+- Safety guidance
+- Travel activities
+- Saved places
+- Trip-related assistance
+- Proposed itinerary modifications
+
+For itinerary modifications, TourInsight follows a human-controlled workflow:
 
 **AI Suggests → Traveller Confirms → Trip Updates**
 
-This keeps important travel decisions under the user's control.
+This ensures that important changes are not made automatically without the traveller's approval.
 
 ---
 
 ## 📦 Offline Travel Support
 
-Travellers may experience weak or unavailable internet connectivity during their journey.
+Internet connectivity may become weak or completely unavailable while travelling, especially in remote, rural, hill, or coastal areas.
 
-TourInsight therefore provides an **Offline Trip Pack** containing saved trip information such as:
+TourInsight therefore provides an **Offline Trip Pack** that can contain saved trip information such as:
 
-- Itinerary
+- Complete itinerary
 - Budget snapshot
 - Emergency contacts
 - Saved weather information
 - Nearby essentials
 - Destination information
-- Route snapshot
+- Saved route/map snapshot
 - Offline travel assistant
 
-This allows important travel information to remain available even when the network is unavailable.
+The offline assistant works using information already saved with the trip and does not depend on live internet services.
+
+This allows important travel information to remain available even when network connectivity is unavailable.
 
 ---
 
 ## 🔮 Future Scope
 
-Future versions of TourInsight can include:
+Future versions of TourInsight can be expanded with:
 
-- Flight booking
-- Train booking
-- Bus booking
-- Hotel booking
-- Tourist attraction ticket booking
-- Secure payment integration
-- Blockchain-based ticket verification
+- ✈️ Flight booking
+- 🚆 Train booking
+- 🚌 Bus booking
+- 🏨 Hotel booking
+- 🎟️ Tourist attraction ticket booking
+- 💳 Secure payment integration
+- ⛓️ Blockchain-based ticket verification
+- 🔐 Tamper-resistant booking records
+- 🆘 Live SOS location sharing
+- 🗣️ Multilingual voice assistant
+- 🗺️ Advanced offline interactive maps
+- 👥 Real-time crowd information
+- ♿ Accessibility-based travel personalization
+- 🌱 Sustainable travel recommendations
+- 🥽 AR-based tourism assistance
+
+### ⛓️ Blockchain Vision
+
+Blockchain can be introduced in future versions of TourInsight for:
+
+- Secure ticket verification
+- Prevention of duplicate or fake tickets
 - Tamper-resistant booking records
-- Live SOS location sharing
-- Multilingual voice assistant
-- Advanced offline maps
-- Real-time crowd information
-- AR-based tourism assistance
-
-Blockchain can be used in future versions for secure ticket verification and trusted booking records.
+- Trusted transaction records
+- Improved trust between travellers and travel service providers
 
 ---
 
 ## 📸 Application Preview
 
-The following screenshots demonstrate the major modules of the TourInsight platform.
+The following screenshots demonstrate the major modules and working features of the **TourInsight** platform.
 
-![TourInsight Logo](TourInsight_Images/icon.png)
+<p align="center">
+  <img src="TourInsight_Images/icoin/icon.png" width="300" alt="TourInsight Logo">
+</p>
 
-### Smart Travel Planning
-![Home Page](TourInsight_Images/home.png)
+<p align="center">
+  <b>TourInsight — Smart, Safe & Personalized Travel Companion</b><br>
+  <i>Plan Smart • Travel Safe • Explore More</i>
+</p>
 
-### World Explorer
-![World Explorer](TourInsight_Images/world-explorer.png)
+---
 
-### Trip Planner
-![Trip Planner](TourInsight_Images/planner.png)
+### 🏠 TourInsight Home
 
-### Personalized Itinerary
-![Itinerary](TourInsight_Images/itinerary.png)
+The landing page introduces the TourInsight platform and provides quick access to trip planning, the World Explorer, saved trips, and travel assistance.
 
-### Interactive Trip Map
-![Trip Map](TourInsight_Images/map.png)
+![TourInsight Home](TourInsight_Images/screenshots/home.png)
 
-### Budget Planning
-![Budget](TourInsight_Images/budget.png)
+---
 
-### Travel Safety
-![Safety](TourInsight_Images/safety.png)
+### 🌍 Interactive World Explorer
 
-### Nearby Essentials
-![Nearby Essentials](TourInsight_Images/nearby.png)
+Travellers can explore countries on an interactive world map, discover popular tourist destinations, and directly use a selected place as their trip destination.
 
-### AI Travel Assistant
-![AI Assistant](TourInsight_Images/ai-assistant.png)
+![World Explorer](TourInsight_Images/screenshots/world-explorer.png)
 
-### Offline Trip Support
-![Offline Pack](TourInsight_Images/offline-pack.png)
+---
+
+### ✨ Smart Trip Planner
+
+The planner collects important traveller context including starting location, destination, date, trip duration, transport mode, interests, travel style, budget, number of travellers, and additional travel preferences.
+
+![Smart Trip Planner](TourInsight_Images/screenshots/planner.png)
+
+---
+
+### 📅 Personalized Day-wise Itinerary
+
+TourInsight generates a structured itinerary divided into individual travel days and stops.
+
+Each stop can include timing, activity information, destination images, and useful travel guidance.
+
+![Personalized Itinerary](TourInsight_Images/screenshots/itinerary-overview.png)
+
+### 🗓️ Detailed Itinerary Stops
+
+Travellers can view and manage individual itinerary stops and add additional activities to their travel plan.
+
+![Itinerary Details](TourInsight_Images/screenshots/itinerary-details.png)
+
+---
+
+### 🗺️ Interactive Trip Map
+
+Trip locations are displayed as numbered markers on an interactive map.
+
+Travellers can switch between different trip days and visualize the route between itinerary locations.
+
+![Interactive Trip Map](TourInsight_Images/screenshots/map.png)
+
+---
+
+### 💰 Smart Budget Estimation
+
+TourInsight provides a planning estimate for major trip expenses including transportation, accommodation, food, local transportation, activities, and other expected costs.
+
+Budget values are presented as **planning estimates** rather than live booking prices.
+
+![Budget Estimation](TourInsight_Images/screenshots/budget.png)
+
+---
+
+### 🛡️ Travel Safety Assistance
+
+The safety module provides emergency contact information, travel tips, and a heuristic trip-risk indicator based on available trip context.
+
+It is intended as travel-planning guidance and not as a certified safety assessment.
+
+![Travel Safety](TourInsight_Images/screenshots/safety.png)
+
+---
+
+### 🏥 Nearby Essentials
+
+TourInsight can search for useful services around the traveller's destination, including:
+
+- Hospitals
+- Police stations
+- Pharmacies
+- ATMs
+- Banks
+- Fuel stations
+- Restaurants
+- Cafés
+- Hotels
+- Railway stations
+
+![Nearby Essentials](TourInsight_Images/screenshots/nearby.png)
+
+---
+
+### 🤖 TourInsight AI Assistant
+
+The contextual travel assistant can answer questions about the current trip and help travellers understand their itinerary, saved places, budget, and other trip information.
+
+For itinerary-changing requests, the assistant proposes the change before applying it.
+
+![TourInsight AI Assistant](TourInsight_Images/screenshots/ai-assistant.png)
+
+---
+
+### 📦 Offline Trip Pack
+
+TourInsight allows travellers to generate and download a standalone offline trip pack containing important saved information for their journey.
+
+![Offline Trip Ready](TourInsight_Images/screenshots/offline-trip-ready.png)
+
+---
+
+### 📴 Offline Travel Experience
+
+The downloaded trip pack can be opened without internet connectivity and provides access to saved trip information and the offline TourInsight assistant.
+
+Live maps, fresh weather information, and online AI features require reconnection.
+
+![Offline Trip Pack](TourInsight_Images/screenshots/offline-pack.png)
+
+---
+
+## 💡 Project Vision
+
+TourInsight is designed around a simple idea:
+
+> **The best travel platform is not the one that simply provides the most information. It is the one that understands the traveller, adapts to their journey, and keeps important travel information accessible when they need it most.**
+
+Our goal is to create a unified travel companion that supports the traveller through the complete journey:
+
+**Explore → Plan → Personalize → Travel → Assist → Stay Safe → Give Feedback → Improve**
+
 
 ## What is included
 
@@ -183,18 +309,23 @@ TourInsight/
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-├── TourInsight_Images/       # README screenshots and project logo
-│   ├── icon.png
-│   ├── home.png
-│   ├── world-explorer.png
-│   ├── planner.png
-│   ├── itinerary.png
-│   ├── map.png
-│   ├── budget.png
-│   ├── safety.png
-│   ├── nearby.png
-│   ├── ai-assistant.png
-│   └── offline-pack.png
+TourInsight_Images/
+├── icoin/
+│   └── icon.png
+└── screenshots/
+    ├── home.png
+    ├── world-explorer.png
+    ├── planner.png
+    ├── itinerary-overview.png
+    ├── itinerary-details.png
+    ├── itinerary-closeup.png
+    ├── ai-assistant.png
+    ├── map.png
+    ├── budget.png
+    ├── safety.png
+    ├── nearby.png
+    ├── offline-trip-ready.png
+    └── offline-pack.png
 ├── README.md
 ├── .env.example
 ├── package.json
