@@ -1,4 +1,6 @@
-<img src="docs/images/icon.png" width="280" alt="TourInsight Logo">
+<p align="center">
+  <img src="icoin/icon.png" width="280" alt="TourInsight Logo">
+</p>
 # TourInsight — Smart, Safe & Personalized Travel Companion
 
 TourInsight is a full-stack travel-planning prototype built with React, Vite, Tailwind CSS, MapLibre, OpenStreetMap services, a lightweight Node/Express backend, and an optional Gemini-powered travel assistant.
