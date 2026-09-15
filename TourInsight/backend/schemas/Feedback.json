@@ -1,0 +1,28 @@
+{
+  "name": "Feedback",
+  "fields": {
+    "trip_id": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "default": 5,
+      "required": true
+    },
+    "message": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "reviewed",
+        "closed"
+      ],
+      "default": "new"
+    }
+  }
+}

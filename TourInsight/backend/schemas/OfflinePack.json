@@ -1,0 +1,21 @@
+{
+  "name": "OfflinePack",
+  "fields": {
+    "trip_id": {
+      "type": "string",
+      "required": true
+    },
+    "trip_name": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "saved_at": {
+      "type": "date-time"
+    },
+    "snapshot": {
+      "type": "object"
+    }
+  }
+}

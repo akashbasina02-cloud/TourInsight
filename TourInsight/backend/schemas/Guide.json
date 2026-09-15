@@ -1,0 +1,40 @@
+{
+  "name": "Guide",
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "destination": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "array",
+      "items": "string"
+    },
+    "specialties": {
+      "type": "array",
+      "items": "string"
+    },
+    "price_per_day": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    },
+    "source": {
+      "type": "string",
+      "default": "starter"
+    }
+  }
+}

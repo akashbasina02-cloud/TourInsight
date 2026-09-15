@@ -1,0 +1,38 @@
+{
+  "name": "Place",
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "destination": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    },
+    "source": {
+      "type": "string",
+      "default": "starter"
+    }
+  }
+}

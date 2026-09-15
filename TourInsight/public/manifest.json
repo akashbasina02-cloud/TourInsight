@@ -1,0 +1,8 @@
+{
+  "name": "TourInsight — Smart, Safe & Personalized Travel Companion",
+  "short_name": "TourInsight",
+  "description": "Travel planning with maps, safety tools and an offline trip assistant.",
+  "start_url": "/", "scope": "/", "display": "standalone",
+  "background_color": "#12203A", "theme_color": "#12203A", "orientation": "portrait-primary",
+  "categories": ["travel", "navigation", "lifestyle"]
+}

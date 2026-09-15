@@ -1,0 +1,13 @@
+{
+  "name": "User",
+  "fields": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "admin",
+        "user"
+      ],
+      "required": true
+    }
+  }
+}

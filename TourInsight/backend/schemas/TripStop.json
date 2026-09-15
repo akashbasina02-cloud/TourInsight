@@ -1,0 +1,42 @@
+{
+  "name": "TripStop",
+  "fields": {
+    "trip_id": {
+      "type": "string",
+      "required": true
+    },
+    "day_number": {
+      "type": "number",
+      "default": 1
+    },
+    "sequence": {
+      "type": "number",
+      "default": 1
+    },
+    "time": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string",
+      "required": true
+    },
+    "notes": {
+      "type": "string"
+    },
+    "tip": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "place_name": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    }
+  }
+}

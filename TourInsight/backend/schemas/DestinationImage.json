@@ -1,0 +1,35 @@
+{
+  "name": "DestinationImage",
+  "fields": {
+    "cache_key": {
+      "type": "string",
+      "required": true
+    },
+    "place": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "thumb_url": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "wikipedia"
+    },
+    "found": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

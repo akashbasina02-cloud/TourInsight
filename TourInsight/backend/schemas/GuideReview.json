@@ -1,0 +1,20 @@
+{
+  "name": "GuideReview",
+  "fields": {
+    "guide_id": {
+      "type": "string",
+      "required": true
+    },
+    "trip_id": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "default": 5,
+      "required": true
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Trip",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "days": {
+      "type": "number",
+      "default": 3
+    },
+    "travellers": {
+      "type": "number",
+      "default": 1
+    },
+    "pace": {
+      "type": "number",
+      "default": 3
+    },
+    "interests": {
+      "type": "array",
+      "items": "string"
+    },
+    "transport_mode": {
+      "type": "string",
+      "enum": [
+        "flight",
+        "train",
+        "bus",
+        "car",
+        "ship"
+      ],
+      "default": "flight"
+    },
+    "hotel_preference": {
+      "type": "string",
+      "enum": [
+        "budget",
+        "standard",
+        "premium"
+      ],
+      "default": "standard"
+    },
+    "custom_budget": {
+      "type": "number"
+    },
+    "women_travelling": {
+      "type": "boolean",
+      "default": false
+    },
+    "guide_requested": {
+      "type": "boolean",
+      "default": false
+    },
+    "budget_total": {
+      "type": "number"
+    },
+    "budget_json": {
+      "type": "object"
+    },
+    "transport_json": {
+      "type": "object"
+    },
+    "weather_json": {
+      "type": "object"
+    },
+    "destination_lat": {
+      "type": "number"
+    },
+    "destination_lon": {
+      "type": "number"
+    },
+    "guide_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planning",
+        "active",
+        "completed",
+        "archived"
+      ],
+      "default": "planning"
+    },
+    "is_public": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
